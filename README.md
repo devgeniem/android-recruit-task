@@ -3,7 +3,13 @@
 
 ## requirements
 Implement a simple image grid app that displays the image information in a detailed page, using this
-project. Use [fragments](https://developer.android.com/guide/components/fragments), [okhttp](https://github.com/square/okhttp)
+project. 
+
+The user should see the grid initially as soon as the data is ready from the http client. Clicking 
+image thumbnail on the grid should navigate to the details page, using the json data already available 
+from the initial api call. 
+
+Use [fragments](https://developer.android.com/guide/components/fragments), [okhttp](https://github.com/square/okhttp)
 and [livedata](https://developer.android.com/topic/libraries/architecture/livedata)
 
 The app should pull it's data from [jsonplaceholder](https://jsonplaceholder.typicode.com/) using the
@@ -13,8 +19,6 @@ should render the full image as well as the title.
 The app is composed of two fragments:
 - image grid fragment
 - single image fragment   
-
-Both fragments are whole pages and should be managed by [fragment manager](https://developer.android.com/reference/android/support/v4/app/FragmentManager)
 
 ## the boilerplate
 This project is the fragment + viewmodel setup provided by android studio. Feel free to refactor
