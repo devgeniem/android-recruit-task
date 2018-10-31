@@ -25,11 +25,6 @@ This project is the fragment + viewmodel setup provided by android studio. Feel 
 everything as you see fit, as long the requirements are met. You can use kotlin or java, but kotlin
 is preferred.
 
-## bonus considerations
-
-1) Do something with the large amount of data on grid, either actual paging or endless scrolling  
-2) use [moshi](https://github.com/square/moshi) for json parsing
-3) implement pull-to-refresh for the grid 
 
 ## delivery  
 
