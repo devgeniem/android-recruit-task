@@ -1,6 +1,6 @@
 package geniem.com.recruit
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import geniem.com.recruit.ui.main.MainFragment
 
